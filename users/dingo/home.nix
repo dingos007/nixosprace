@@ -20,12 +20,13 @@
   home.packages = [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
+     pkgs.unrar-free
      pkgs.ffmpeg_6-full
      pkgs.nfs-utils
      pkgs.hello
      pkgs.hello
      pkgs.wget
-     pkgs.kate
+     pkgs.kdePackages.kate
      pkgs.htop
      pkgs.lftp
      pkgs.nsnake
@@ -42,7 +43,7 @@
      pkgs.vlc
      pkgs.mplayer
      pkgs.kmplayer
-     pkgs.partition-manager
+     pkgs.kdePackages.partitionmanager
      pkgs.curl
      pkgs.tree
      pkgs.neofetch
@@ -57,6 +58,9 @@
      pkgs.kitty
      pkgs.wofi
      pkgs.pamixer	
+
+
+	
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
