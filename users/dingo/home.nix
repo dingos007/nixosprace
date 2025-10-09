@@ -42,7 +42,7 @@
    # pkgs.google-chrome
      pkgs.vlc
      pkgs.mplayer
-     pkgs.kmplayer
+   # pkgs.kmplayer
      pkgs.kdePackages.partitionmanager
      pkgs.curl
      pkgs.tree
