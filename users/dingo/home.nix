@@ -37,16 +37,16 @@
      pkgs.abiword
      pkgs.gnumeric
      pkgs.rclone
-     pkgs.tmate
+   # pkgs.tmate
      pkgs.mc
    # pkgs.google-chrome
      pkgs.vlc
-     pkgs.mplayer
+   # pkgs.mplayer
    # pkgs.kmplayer
      pkgs.kdePackages.partitionmanager
      pkgs.curl
      pkgs.tree
-     pkgs.neofetch
+   # pkgs.neofetch
      pkgs.elinks
      pkgs.git-cola
      pkgs.lynx
@@ -124,11 +124,29 @@ programs.micro = {
     };
   };
 
+  	
+
 programs.git = {
-    enable = true;
-    userName  = "Petr Dio";
-    userEmail = "dingos@seznam.cz";
-  };  	
+  enable = true;
+
+  settings = {
+    user = {
+      name = "Petr Dio";
+      email = "dingos@seznam.cz";
+    };
+  };
+};
+
+
+
+
+
+
+
+
+
+
+
 
 
 
