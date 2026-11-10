@@ -59,7 +59,9 @@
      pkgs.wofi
      pkgs.pamixer	
 
-
+    # pkgs.xclip
+    # pkgs.xsel
+    # pkgs.wl-clipboard
 	
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
@@ -112,17 +114,44 @@
   };
   
 programs.micro = {
-    enable = true;
-    settings = {
-      colorscheme = "material-tc";
-      mkparents = true;
-      softwrap = true;
-      tabmovement = true;
-      tabsize = 2;
-      tabstospaces = true;
-      autosu = true;
-    };
+  enable = true;
+  settings = {
+    colorscheme = "material-tc";
+    mkparents = true;
+    softwrap = true;
+    tabmovement = true;
+    tabsize = 2;
+    tabstospaces = true;
+    autosu = true;
+    clipboard = "external";  # Systémová schránka
   };
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#programs.micro = {
+#    enable = true;
+#    settings = {
+#      colorscheme = "material-tc";
+#      mkparents = true;
+#      softwrap = true;
+#      tabmovement = true;
+#      tabsize = 2;
+#      tabstospaces = true;
+#      autosu = true;
+#    };
+#  };
 
   	
 
